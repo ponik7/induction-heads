@@ -23,12 +23,12 @@
 
 ## 3. Результаты
 
-<img src="assets/coat_h4_1" alt="behavioral score" width="500"/>
-<img src="assets/coat_h4_2" alt="behavioral score" width="500"/>
-<img src="assets/coat_h4_3" alt="behavioral score" width="500"/>
+<img src="assets/coat_h4_1.png" alt="behavioral score" width="500"/>
+<img src="assets/coat_h4_2.png" alt="behavioral score" width="500"/>
+<img src="assets/coat_h4_3.png" alt="behavioral score" width="500"/>
 Три картинки подряд для первой модели, визуализация внимания 4 головы. Даже по самому паттерну видно наличие induction head. Результаты в целом это подтверждают, видим, что, например, текущий токен "D" в слове "Dursley" смотрит назад не просто на токен "D", но сразу на "urs", что явно указывает на наличие Induction Head.
 
-<img src="assets/atat_full" alt="behavioral score" width="500"/>
+<img src="assets/atat_full.png" alt="behavioral score" width="500"/>
 К сожалению, в модели с двумя self-attention не получилось выявить Induction Heads, скорее всего, я сделал что-то не так в архитектурном плане, постараюсь отдебажить и долить в репо.
 
 
