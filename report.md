@@ -31,6 +31,8 @@
 <img src="assets/atat_full.png" alt="behavioral score" width="500"/>
 К сожалению, в модели с двумя self-attention не получилось выявить Induction Heads, скорее всего, я сделал что-то не так в архитектурном плане, постараюсь отдебажить и долить в репо.
 
+<img src="assets/conv_weights.png" alt="behavioral score" width="500"/>
+На визуализации видим веса conv слоя, тут отлично видно, что веса получаются "размазанными", что и должно было получиться теоретически, если бы веса повторяли концепцию smeared keys.
 
 ## 4. Список литературы
 1. [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
