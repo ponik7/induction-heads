@@ -28,8 +28,10 @@
 <img src="assets/coat_h4_3.png" alt="behavioral score" width="500"/>
 Три картинки подряд для первой модели, визуализация внимания 4 головы. Даже по самому паттерну видно наличие induction head. Результаты в целом это подтверждают, видим, что, например, текущий токен "D" в слове "Dursley" смотрит назад не просто на токен "D", но сразу на "urs", что явно указывает на наличие Induction Head.
 
-<img src="assets/atat_full.png" alt="behavioral score" width="500"/>
-К сожалению, в модели с двумя self-attention не получилось выявить Induction Heads, скорее всего, я сделал что-то не так в архитектурном плане, постараюсь отдебажить и долить в репо.
+<img src="assets/atat_h11_1.png" alt="behavioral score" width="500"/>
+<img src="assets/atat_h11_2.png" alt="behavioral score" width="500"/>
+Здесь на том же примере видим, что проявляются Induction Heads на 11 голове (по сути тоже 4 голова на втором слое).
+
 
 <img src="assets/conv_weights.png" alt="behavioral score" width="500"/>
 На визуализации видим веса conv слоя, тут отлично видно, что веса получаются "размазанными", что и должно было получиться теоретически, если бы веса повторяли концепцию smeared keys.
